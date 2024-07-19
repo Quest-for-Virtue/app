@@ -22,7 +22,7 @@ body {
     color: #fff;
 }
 
-#game-container {
+#creators-container{
     margin: 0 auto;
     background-color: #45a049;
     border-radius: 10px;
@@ -31,51 +31,10 @@ body {
     padding-bottom: 10px;
 }
 
-h1 {
-    color: #333;
-}
-
-#game-text {
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-#options-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-}
-
-.option-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.option-button:hover {
-    background-color: white;
-    color: #45a049;
-}
-
-.stat {
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
 #footer{
     align-items: center;
     text-align: center;
     color: black;
-    padding-top: 325px;
+    padding-top: 270px;
     font-size: 8px;
 }
