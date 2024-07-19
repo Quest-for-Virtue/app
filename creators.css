@@ -31,6 +31,14 @@ body {
     padding-bottom: 10px;
 }
 
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
 #footer{
     align-items: center;
     text-align: center;

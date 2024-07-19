@@ -31,6 +31,10 @@ body {
     padding-bottom: 10px;
 }
 
+h3 {
+    font-weight: normal;
+}
+
 #footer{
     align-items: center;
     text-align: center;
