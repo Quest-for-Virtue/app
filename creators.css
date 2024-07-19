@@ -46,6 +46,12 @@ body {
     margin: 10px;
     width: 200px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
 }
 
 h3 {

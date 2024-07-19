@@ -14,15 +14,16 @@ body {
     text-decoration: none;
     color: #333;
     background-color: #f0f0f0;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 #navbar a:hover {
     background-color: #333;
     color: #fff;
+    transform: scale(1.1);
 }
 
-#contacts-container{
+#contacts-container {
     margin: 0 auto;
     background-color: #45a049;
     border-radius: 10px;
@@ -31,14 +32,42 @@ body {
     padding-bottom: 10px;
 }
 
-h3 {
-    font-weight: normal;
+h2 {
+    font-weight: bold;
+    animation: slideIn 1.5s ease-in-out;
 }
 
-#footer{
+h3 {
+    font-weight: normal;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#footer {
     align-items: center;
     text-align: center;
     color: black;
     padding-top: 270px;
     font-size: 8px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in 2s forwards;
 }
