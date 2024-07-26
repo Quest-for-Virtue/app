@@ -76,6 +76,37 @@ h1 {
     align-items: center;
     text-align: center;
     color: black;
-    padding-top: 325px;
+    padding-top: 29px;
     font-size: 8px;
+}
+
+#scene-image{
+    height: 200px;
+    width: 500px;
+    max-width: 100%;
+    border-radius: 3.5px;
+    display: block;
+    margin: 20px auto; 
+}
+
+/* CSS for styling the gems list */
+#gems-list {
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.gem {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #a6d3b4; /* Green background */
+    color: #212529; /* Dark text color */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Optional hover effect */
+.gem:hover {
+    background-color: #c4e4d3; /* Lighter shade on hover */
+    cursor: pointer;
 }
